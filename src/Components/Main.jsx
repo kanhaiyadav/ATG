@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { mainNav, mainNav2 } from "../constants/home";
 import { useState } from "react";
 import Card from "./Card";
@@ -74,15 +75,12 @@ const Main = ({ authenticated, setOpenModal }) => {
                             }
                         }}
                     >
-                        {
-                            joinGroup?
-                                <img src="/leave.svg" alt="" width={24} />
-                                :
-                                <img src="/joinn-group.svg" alt="" width={24} />
-                        }
-                        {
-                            joinGroup? 'Leave Group': 'Join Group'
-                        }
+                        {joinGroup ? (
+                            <img src="/leave.svg" alt="" width={24} />
+                        ) : (
+                            <img src="/joinn-group.svg" alt="" width={24} />
+                        )}
+                        {joinGroup ? "Leave Group" : "Join Group"}
                     </button>
                 </div>
             </nav>

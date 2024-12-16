@@ -1,4 +1,5 @@
-const Nav = ({authenticated, setOpenModal}) => {
+/* eslint-disable react/prop-types */
+const Nav = ({ setOpenModal }) => {
     return (
         <nav
             className="d-sm-flex d-none flex-row align-items-center justify-content-between w-100 py-3"
@@ -28,9 +29,10 @@ const Nav = ({authenticated, setOpenModal}) => {
                     placeholder="Search for your favorite groups in ATG"
                 />
             </form>
-            <p className=" d-lg-block d-none"
+            <p
+                className=" d-lg-block d-none"
                 onClick={() => setOpenModal(true)}
-                style={{cursor: "pointer"}}
+                style={{ cursor: "pointer" }}
             >
                 Create account.{" "}
                 <span className="text-primary fw-bold">It&apos;s free!</span>

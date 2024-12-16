@@ -57,7 +57,7 @@ function App() {
                                 className="d-sm-block d-none bg-success-subtle px-5 py-2 text-success fw-semibold"
                                 style={{ fontSize: "14px" }}
                             >
-                                Let's learn, share & inspire each other with our
+                                Let&apos;s learn, share & inspire each other with our
                                 passion for computer engineering. Sign up now 🤘🏼
                             </div>
                             <div className="container">

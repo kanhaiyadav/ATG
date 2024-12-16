@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
 const Hero = ({ authenticated, setOpenModal }) => {
@@ -28,7 +29,7 @@ const Hero = ({ authenticated, setOpenModal }) => {
                         }
                     }}
                 >
-                    { joinGroup? 'Leave Group': 'Join Group'}
+                    {joinGroup ? "Leave Group" : "Join Group"}
                 </button>
             </div>
             <div className="hero-text position-absolute d-flex flex-column justify-content-between align-items-center top-0 w-100 h-100 start-0 bg-black bg-opacity-50">
