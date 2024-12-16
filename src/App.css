@@ -1,0 +1,175 @@
+@media screen and (max-width: 992px) {
+    .hero h1{
+        font-size: 36px;
+    }
+    .hero p{
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .hero h1{
+        font-size: 28px;
+    }
+    .hero p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero h1{
+        font-size: 24px;
+    }
+    .hero p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero h1{
+        font-size: 20px;
+    }
+    .hero p{
+        font-size: 14px;
+    }
+}
+
+.hero{
+    height: clamp(236px, 40vw, 440px);
+}
+
+
+.btn-secondary{
+    background-color: #eeeeee;
+    border: #eeeeee;
+    color: black;
+    font-weight: 600;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #eeeeee;
+}
+
+.post h4{
+    font-size: 24px;
+    @media screen and (max-width: 768px) {
+        font-size: 18px;        
+    }
+    @media screen and (max-width: 576px) {
+        font-size: 16px;        
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 12px;        
+    }
+}
+
+.post p{
+    font-size: 18px;
+    margin: 0px;
+    @media screen and (max-width: 768px) {
+        font-size: 16px;        
+    }
+    @media screen and (max-width: 576px) {
+        font-size: 12px;        
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 10px;        
+    }
+}
+
+.post>img{
+    height: 220px;
+    @media screen and (max-width: 768px) {
+        height: 180px;        
+    }
+    @media screen and (max-width: 576px) {
+        height: 140px;        
+    }
+    @media screen and (max-width: 480px) {
+        height: 120px;        
+    }
+}
+
+.author-avatar{
+    height: 48px;
+    width: 48px;
+    @media screen and (max-width: 768px) {
+        height: 40px;
+        width: 40px;        
+    }
+    @media screen and (max-width: 576px) {
+        height: 32px;
+        width: 32px;        
+    }
+}
+
+main{
+    width: 75% !important;
+    @media screen and (max-width: 992px) {
+        width: 85% !important;        
+    }
+    @media screen and (max-width: 768px) {
+        width: 90% !important;        
+    }
+    /* @media screen and (max-width: 576px) {
+        width: 95% !important;        
+    } */
+
+}
+
+
+.icon{
+    height: 18px;
+    width: 18px;
+    @media screen and (max-width: 768px) {
+        height: 16px;
+        width: 16px;        
+    }
+    @media screen and (max-width: 576px) {
+        height: 14px;
+        width: 14px;        
+    }
+}
+
+.form-control{
+    border-radius: 1px;
+    background-color: #f7f8fa;
+    height: 46px;
+}
+
+.signin{
+    position: static;
+    background-color: white;
+    @media screen and (max-width: 576px) {
+        height: 80vh;
+        position: absolute;        
+        bottom: 0px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+
+.signin p{
+    font-size: 14px;
+    @media screen and (max-width: 768px) {
+        font-size: 12px;        
+    }
+}
+
+span.social{
+    font-size: 16px;
+    @media screen and (max-width: 768px) {
+        font-size: 16px;        
+    }
+    @media screen and (max-width: 576px) {
+        font-size: 14px;        
+    }
+}
+
+.signin .sign{
+    width: 100%;
+    @media screen and (max-width: 576px) {
+        width: fit-content;
+    }
+}
