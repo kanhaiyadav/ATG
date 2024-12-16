@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Nav from "./Components/nav";
 import Hero from "./Components/Hero";
-import Main from "./Components/main";
+import Main from "./Components/Main";
 
 function App() {
     const [authenticated, setAuthenticated] = useState(false);
